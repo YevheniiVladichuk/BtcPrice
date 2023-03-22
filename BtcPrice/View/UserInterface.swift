@@ -53,7 +53,7 @@ class UserInterface: UIView {
     
     let priceLabel: UILabel = {
         let priceLabel = UILabel()
-        priceLabel.font = UIFont(name: "Helvetica Neue", size: 35)
+        priceLabel.font = UIFont(name: "Helvetica Neue", size: 32)
         priceLabel.textColor = .white
         priceLabel.textAlignment = .right
         return priceLabel
@@ -94,7 +94,7 @@ class UserInterface: UIView {
             
             hStackView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 50),
             hStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 50),
-            hStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -50),
+            hStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -25),
             hStackView.heightAnchor.constraint(equalToConstant: 100),
             
             bitcoinImage.widthAnchor.constraint(equalToConstant: 100),
